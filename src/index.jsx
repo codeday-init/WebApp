@@ -5,7 +5,7 @@ import App from './App';
 
 // The following line is rewritten to true by the buildSrcCordova.js node script
 const isIndexCordova = false;
-
+console.log("inside index.jsx");
 function startReact () {
   ReactDOM.render(
     <App />,
